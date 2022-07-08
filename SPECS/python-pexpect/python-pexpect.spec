@@ -3,7 +3,7 @@
 Summary:        Unicode-aware Pure Python Expect-like module
 Name:           python-%{modname}
 Version:        4.8.0
-Release:        10%{?dist}
+Release:        11%{?dist}
 License:        ISC
 Vendor:         Microsoft Corporation
 Distribution:   Mariner
@@ -89,6 +89,9 @@ TRAVIS=true python3 -m pytest -v
 %{python3_sitelib}/%{modname}-*.egg-info
 
 %changelog
+* Fri jul 08 2022 Nicolas Guibourge <nicolasg@microsoft.com> - 4.8.0-11
+- Fix package test_async_replwrap_multiline test
+
 * Wed Jun 23 2021 Thomas Crain <thcrain@microsoft.com> - 4.8.0-10
 - Fix package tests by using pip to install testing requirements
 - Fix package tests by taking sys_executable patch from upstream
