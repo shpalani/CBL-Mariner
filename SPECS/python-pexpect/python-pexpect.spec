@@ -89,7 +89,7 @@ TRAVIS=true python3 -m pytest -v
 %{python3_sitelib}/%{modname}-*.egg-info
 
 %changelog
-* Fri jul 08 2022 Nicolas Guibourge <nicolasg@microsoft.com> - 4.8.0-11
+* Fri Jul 08 2022 Nicolas Guibourge <nicolasg@microsoft.com> - 4.8.0-11
 - Fix package test_async_replwrap_multiline test
 
 * Wed Jun 23 2021 Thomas Crain <thcrain@microsoft.com> - 4.8.0-10
